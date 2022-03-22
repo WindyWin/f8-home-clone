@@ -7,11 +7,15 @@
 a{
     text-decoration: none;
 }
-
+.sticky{
+    position: sticky;
+    top: 0;
+}
 /* HEADER */
 header{
     position: fixed;
     top: 0;
+    z-index: 1;
     width: 100%;
     display: flex;
     padding: 0 28px;
@@ -112,6 +116,7 @@ header .header__right img{
     /* position:fixed;
     top:90px;
     left:8px; */
+    background:#fff;
     display: flex;
     width: 80px;
     height: 378px;
@@ -194,6 +199,21 @@ nav ul a span{
 nav ul path{
     fill: #1A1A1A;
 }
+
+/* ------------------------------------------ */
+/* BODY */
+.home-content{
+    width: calc(100% - 80px);
+    padding-top: 90px;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------- */
 
 /* FOOTER */
 footer{
