@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F8 - học lập trình để đi làm</title>
-    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
@@ -37,6 +37,9 @@
         </div>
 
     </header>
+
+
+
     <div class="body">
         <div class="left-menu sticky">
             <div class="create-btn-container">
@@ -113,21 +116,106 @@
                 </ul>
             </nav>
         </div>
-        
-        
+
         <div class="home-content">
+            <div class="slider-container">
+                <div class="slider">
+                    <button class="back-btn">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                            class="svg-inline--fa fa-chevron-left " role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 320 512">
+                            <path fill="#444"
+                                d="M224 480c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l169.4 169.4c12.5 12.5 12.5 32.75 0 45.25C240.4 476.9 232.2 480 224 480z">
+                            </path>
+                        </svg>
+                    </button>
+                    <button class="foward-btn"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                            data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path fill="#444"
+                                d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z">
+                            </path>
+                        </svg></button>
+                    <ul class="banner-gallery">
+                        <li id="banner-1" class="active">
+                            <div class="banner__left-side">
+                                <a href="">
+                                    <h2 class="banner-header">Học ReactJS Miễn Phí!</h2>
+                                </a>
+                                <p class="banner-description">Khóa học ReactJS từ cơ bản tới nâng cao. Kết quả của khóa
+                                    học này là bạn có thể làm hầu hết các dự án thường gặp với ReactJS.</p>
+                                <button class="slider-btn">Đăng ký ngay</button>
+                            </div>
+                            <div class="banner__right-side">
+                                <img src="assets/image/banner/Banner_web_ReactJS.png" alt="Banner_web_ReactJS">
+                            </div>
+                        </li>
+                        <li id="banner-2">
+                            <div class="banner__left-side">
+                                <a href="">
+                                    <h2 class="banner-header">Thành Quả của Học Viên</h2>
+                                </a>
+                                <p class="banner-description">Để đạt được kết quả tốt trong mọi việc ta cần xác định mục
+                                    tiêu rõ ràng cho việc đó. Học lập trình cũng không là ngoại lệ.</p>
+                                <button class="slider-btn">Xem thành quả</button>
+                            </div>
+                            <div class="banner__right-side">
+                                <img src="assets/image/banner/Banner_01_2.png" alt="Banner_2">
+                            </div>
+                        </li>
+                        <li id="banner-3">
+                            <div class="banner__left-side">
+                                <a href="">
+                                    <h2 class="banner-header">F8 trên Youtube</h2>
+                                </a>
+                                <p class="banner-description">F8 được nhắc tới ở mọi nơi, ở đâu có cơ hội việc làm cho
+                                    nghề IT và có những con người yêu thích lập trình F8 sẽ ở đó.</p>
+                                <button class="slider-btn">Try cập kênh</button>
+                            </div>
+                            <div class="banner__right-side">
+                                <img src="assets/image/banner/Banner_03_youtube.png" alt="Banner_web_ReactJS">
+                            </div>
+                        </li>
+                        <li id="banner-4">
+                            <div class="banner__left-side">
+                                <a href="">
+                                    <h2 class="banner-header">F8 trên Facebook</h2>
+                                </a>
+                                <p class="banner-description">F8 được nhắc tới ở mọi nơi, ở đâu có cơ hội việc làm cho
+                                    nghề IT và có những con người yêu thích lập trình F8 sẽ ở đó.</p>
+                                <button class="slider-btn">Truy cập nhóm</button>
+                            </div>
+                            <div class="banner__right-side">
+                                <img src="assets/image/banner/Banner_04_2.png" alt="Banner_web_ReactJS">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="slick-wrapper">
+                    <button class="slick-dot active"></button>
+                    <button class="slick-dot"></button>
+                    <button class="slick-dot"></button>
+                    <button class="slick-dot"></button>
+                </div>
+            </div>
 
 
 
 
 
-
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero iusto adipisci tenetur sapiente animi fuga, officiis nulla distinctio hic veritatis consectetur illum numquam ullam nihil ut voluptates atque mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero iusto adipisci tenetur sapiente
+            animi fuga, officiis nulla distinctio hic veritatis consectetur illum numquam ullam nihil ut voluptates
+            atque mollitia.
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </div>
+
+
+
+
+
     <footer>
-        <div class="footer-child__wraper">
+        <div class="footer-child__wrapper">
             <section class="footer-content">
                 <div class="contact-info">
                     <div class="footer__logo">
@@ -205,5 +293,73 @@
 </body>
 <script>
 
+    // Xu ly slider
+    const sliderItems = document.querySelectorAll('.banner-gallery li');
+    const slickDots = document.querySelectorAll('.slick-dot');
+    const backButton = document.querySelector('.back-btn');
+    const fowardButton = document.querySelector('.foward-btn');
+
+    var bannerIndex = 0;
+    var isPaused = false;
+
+
+    var timer = setInterval(() => {
+        sliderItems[bannerIndex].classList.remove('active');
+        slickDots[bannerIndex].classList.remove('active');
+        if (!isPaused) {
+            bannerIndex++;
+        }
+        if (bannerIndex >= sliderItems.length) {
+            bannerIndex = 0;
+        }
+
+        sliderItems[bannerIndex].classList.add('active');
+        slickDots[bannerIndex].classList.add('active');
+    }, 5000);
+
+    document.querySelector('.slider-container').addEventListener('mouseover', () => {
+        isPaused= true;
+        console.log('1', 1)
+    });
+    document.querySelector('.slider-container').addEventListener('mouseleave', () => {
+        isPaused= false;
+        console.log('2', 2)
+    });
+
+
+    backButton.addEventListener('click', () => {
+        sliderItems[bannerIndex].classList.remove('active');
+        slickDots[bannerIndex].classList.remove('active');
+        bannerIndex--;
+
+        if (bannerIndex < 0) {
+            bannerIndex = sliderItems.length - 1;
+        }
+
+        sliderItems[bannerIndex].classList.add('active');
+        slickDots[bannerIndex].classList.add('active');
+    });
+    fowardButton.addEventListener('click', () => {
+        sliderItems[bannerIndex].classList.remove('active');
+        slickDots[bannerIndex].classList.remove('active');
+        bannerIndex++;
+
+        if (bannerIndex >= sliderItems.length) {
+            bannerIndex = 0;
+        }
+
+        sliderItems[bannerIndex].classList.add('active');
+        slickDots[bannerIndex].classList.add('active');
+    });
+    slickDots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            sliderItems[bannerIndex].classList.remove('active');
+            slickDots[bannerIndex].classList.remove('active');
+            bannerIndex = index;
+            sliderItems[bannerIndex].classList.add('active');
+            slickDots[bannerIndex].classList.add('active');
+        });
+    });
 </script>
+
 </html>
